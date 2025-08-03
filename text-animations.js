@@ -7,7 +7,6 @@
  */
 
 console.log("Text Animations version 1");
-
 // ------- Configurable Parameters ------- //
 const fadeStart = window.innerWidth < 768 ? "top 100%" : "top 85%";
 const fadeEnd = window.innerWidth < 768 ? "top 60%" : "bottom 75%";
@@ -540,4 +539,5 @@ function handleResize() {
 function addResizeListener() {
   window.addEventListener("resize", debounce(handleResize));
 }
+
 
