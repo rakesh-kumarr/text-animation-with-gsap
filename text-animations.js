@@ -1,9 +1,9 @@
 /**
  * Script Purpose: Text Animations
- * Author: Lalit Yadav
+ * Author: Rakesh Kumar
  * Version: 1.2
- * Created: 10 Dec 2024
- * Last Updated: 1 feb 2025
+ * Created: 10 nov 2024
+ * Last Updated: 1 march 2025
  */
 
 console.log("Text Animations version 1");
@@ -540,3 +540,4 @@ function handleResize() {
 function addResizeListener() {
   window.addEventListener("resize", debounce(handleResize));
 }
+
